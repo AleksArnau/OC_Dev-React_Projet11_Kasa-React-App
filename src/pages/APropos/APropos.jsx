@@ -1,9 +1,9 @@
-function Survey() {
+function APropos() {
   return (
     <div>
-      <h1>Questionnaire 🧮</h1>
+      <h1>APropos 🧮</h1>
     </div>
   );
 }
 
-export default Survey;
+export default APropos;

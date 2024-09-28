@@ -1,9 +1,9 @@
-function Survey() {
+function Logement() {
   return (
     <div>
-      <h1>Questionnaire 🧮</h1>
+      <h1>Logement 🧮</h1>
     </div>
   );
 }
 
-export default Survey;
+export default Logement;
