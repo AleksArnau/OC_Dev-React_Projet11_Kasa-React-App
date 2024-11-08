@@ -1,9 +1,11 @@
-function Survey() {
+import "./Page404.scss";
+
+function Page404() {
   return (
     <div>
-      <h1>Questionnaire 🧮</h1>
+      <h1>Page404 🧮</h1>
     </div>
   );
 }
 
-export default Survey;
+export default Page404;

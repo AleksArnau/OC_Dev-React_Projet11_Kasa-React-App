@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import "./Header.css";
+import "./Header.scss";
 
 function Header() {
   return (
@@ -7,6 +7,7 @@ function Header() {
       <Link to="/">Accueil</Link>
       <Link to="/logement">Logement</Link>
       <Link to="/a-propos">A propos</Link>
+      <Link to="/aleatoire">Aleatoire"404"</Link>
     </nav>
   );
 }

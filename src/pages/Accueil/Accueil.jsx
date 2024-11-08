@@ -1,12 +1,10 @@
-import "./Accueil.css";
+import "./Accueil.scss";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
+        <p>Page d'accueil du site pour le projet Kasa</p>
         <a
           className="App-link"
           href="https://reactjs.org"
