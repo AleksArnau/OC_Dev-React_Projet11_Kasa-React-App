@@ -48,6 +48,11 @@ function Carrousel({ images }) {
         );
       })}
       {nombreImg > 1 && (
+        <p className="indexCarrousel">
+          {imgDisplay + 1}/{nombreImg}
+        </p>
+      )}
+      {nombreImg > 1 && (
         <img
           className="fleche fleche-droite"
           src={fleche}
